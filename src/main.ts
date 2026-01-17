@@ -152,7 +152,7 @@ function create3DText(x: number, y: number, z: number, rotate: number = 0) {
     const fontLoader = new FontLoader();
 
     fontLoader.load(
-        '/droid_sans_mono_regular.typeface.json',
+        '/no-internet-page/droid_sans_mono_regular.typeface.json',
         function (font) {
 
             const text = navigator.onLine ? 'Этот сайт работает \nбез интернета' : 'Интернета нет, \nно все работает'
