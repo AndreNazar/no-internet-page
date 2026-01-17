@@ -2,4 +2,4 @@
 
 ServiceWorker + CacheAPI. Сделал страницу интерактивной с использованием Three.js. Первый раз использую эти технологии - эксперементировал.
 
-Демо: andrenazar.github.io/no-internet-page
+Демо: [andrenazar.github.io/no-internet-page](https://andrenazar.github.io/no-internet-page/)
