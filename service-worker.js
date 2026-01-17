@@ -1,6 +1,6 @@
 "use strict";
 
-const CACHE_NAME = 'v3';
+const CACHE_NAME = 'v1';
 self.addEventListener('install', (e) => {
     self.skipWaiting()
     e.waitUntil(
@@ -10,6 +10,7 @@ self.addEventListener('install', (e) => {
                 const assets = [
                     "./index.html",
                     "./icon.png",
+                    "./droid_sans_mono_regular.typeface.json",
                     `./${manifest['index.html'].file}`,
                     ...manifest['index.html'].css.map(f => `./${f}`)
                 ]
